@@ -1,0 +1,95 @@
+site_name: "AMRAP Security"
+site_url: https://github.com/rox-go/amrap-security
+site_author: "Roxana"
+site_description: "As Many Reps As Possible: Learning as much as possible, every single day"
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Network Security:
+    - Network Fundamentals: network/network_fundamentals.md
+    - Services And Protocols:
+      - FTP: network/services_and_protocols/ftp.md
+      - HTTP: network/services_and_protocols/http.md
+      - MySQL: network/services_and_protocols/mysql.md
+      - PostgreSQL: network/services_and_protocols/postgresql.md
+      - RDP: network/services_and_protocols/rdp.md
+      - Rejetto HFS: network/services_and_protocols/rejetto_hfs.md
+      - SMB: network/services_and_protocols/smb.md
+      - SMTP: network/services_and_protocols/smtp.md
+      - SNMP: network/services_and_protocols/snmp.md
+      - SSH: network/services_and_protocols/ssh.md
+      - WebDAV: network/services_and_protocols/webdav.md
+      - WinRM: network/services_and_protocols/winrm.md
+    - Active Directory: network/active_directory/introduction.md
+    - Information Gathering: network/information_gathering/information_gathering.md
+      - Active Recon: network/information_gathering/active_recon.md
+      - Passive Recon: network/information_gathering/passive_recon.md
+      - Network Mapping: network/information_gathering/network_mapping.md
+      - Vulnerabilities Scanning: network/information_gathering/vulnerabilities_scanning.md
+    - Exploitation: network/exploitation/exploitation.md
+      - Remote Shells: network/exploitation/remote_shells.md
+      - Linux:
+        - Haraka: network/exploitation/linux/haraka.md
+        - libssh: network/exploitation/linux/libssh.md
+        - PHP CGI: network/exploitation/linux/php_cgi.md
+        - Samba: network/exploitation/linux/samba.md
+        - Shellshock: network/exploitation/linux/shellshock.md
+        - Tomcat: network/exploitation/linux/tomcat.md
+        - vsftpd: network/exploitation/linux/vsftpd.md
+    - Windows:
+      - Alternate Data Streams: network/exploitation/windows/alternate_data_streams.md
+      - BlueKeep: network/exploitation/windows/blue_keep.md
+      - EternalBlue: network/exploitation/windows/eternal_blue.md
+      - IIS FTP: network/exploitation/windows/iis_ftp.md
+      - MySQL: network/exploitation/windows/mysql.md
+      - Pass the Hash: network/exploitation/windows/pass_the_hash.md
+      - SMB: network/exploitation/windows/smb.md
+    - Post Exploitation:
+      - Pivoting: /network/post_exploitation/pivoting.md
+      - Linux:
+        - Enumeration: network/post_exploitation/linux/linux_enumeration.md
+        - Privilege Escalation: network/post_exploitation/linux/linux_privilege_escalation.md
+        - Persistence: network/post_exploitation/linux/linux_persistence.md
+        - Hash Dumping: network/post_exploitation/linux/linux_hash_dumping.md
+        - Clearing Tracks: network/post_exploitation/linux/linux_clearing_tracks.md
+      - Windows:
+        - Overview: network/post_exploitation/windows/windows.md
+        - Enumeration: network/post_exploitation/windows/windows_enumeration.md
+        - Privilege Escalation: network/post_exploitation/windows/windows_privilege_escalation.md
+        - Persistence: network/post_exploitation/windows/windows_persistence.md
+        - Hash Dumping: network/post_exploitation/windows/windows_hash_dumping.md
+        - Clearing Tracks: network/post_exploitation/windows/windows_clearing_tracks.md
+
+  - Mobile Security:
+    - Android:      
+      - Uncrackable L1: mobile/android/uncrackable-l1.md
+  - Cheatsheets
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - attr_list
