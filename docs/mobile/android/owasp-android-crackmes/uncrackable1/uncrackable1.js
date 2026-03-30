@@ -27,12 +27,10 @@ function debugChecks() {
     }
 }
 
-Java.perform(function(){
-    rootChecks();
-    debugChecks();
-
+function extractSecretKey(){
     var decryptClass = Java.use("sg.vantagepoint.a.a")
     decryptClass.a.implementation = function (bArr1, bArr2) {
+        // Let the original method finish and get the byte array
         var retValue = this.a(bArr1, bArr2);
 
         // Since the decryption method returns a byte array, we need to cast it to a String object
@@ -40,6 +38,14 @@ Java.perform(function(){
         var decryptedString = stringClass.$new(retValue);
         console.log("Secret: " + decryptedString);
         
-        return decryptedString;
+        // IMPORTANT: Return the original byte array so the app keeps working
+        return retValue;
     }
+}
+
+Java.perform(function(){
+    rootChecks();
+    debugChecks();
+
+    extractSecretKey();
 });

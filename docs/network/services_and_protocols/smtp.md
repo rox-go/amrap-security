@@ -7,7 +7,7 @@ Email delivery over the Internet requires the following components:
 - Mail Delivery Agent (MDA)
 - Mail User Agent (MUA)
 
-![SMTP Diagram](../media/network/mail_diagram.png){ width="500" style="display:block; margin:0 auto;" }
+![SMTP Diagram](../img/mail_diagram.png){ width="500" style="display:block; margin:0 auto;" }
 
 Simple Mail Transfer Protocol (SMTP) is used to communicate with an MTA server. Because SMTP uses cleartext, where all commands are sent without encryption, we can use a basic Telnet client to connect to an SMTP server and act as an email client (MUA) sending a message.
 

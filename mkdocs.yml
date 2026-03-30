@@ -27,7 +27,23 @@ theme:
 
 nav:
   - Home: index.md
-  - Network Security:
+  - 📱 Mobile Security:
+    - Android:
+      - Uncrackable L1: mobile/android/owasp-android-crackmes/uncrackable1/Android_UnCrackable_L1.md
+  - 🕸️ Web Applications Security: 
+    - Introduction: web/web_application_introduction.md
+    - Client Side Attacks:
+      - Cross-Origin Resource Sharing (CORS): web/client_side_attacks/cors.md
+      - Cross-Side Request Forgery (CSRF): web/client_side_attacks/csrf.md
+      - DOM-based Attacks: web/client_side_attacks/dom_based_attacks.md
+      - Cross-Side Scripting (XSS): web/client_side_attacks/xss.md
+    - Content Management Systems (CMS): 
+      - Introduction: web/cms/cms.md
+      - WordPress: web/cms/wordpress.md
+    - Injection Attacks:
+      - SQL Injection: web/injection_attacks/sqli.md
+    - Tools: web/tools.md
+  - 🌐 Network Security:
     - Network Fundamentals: network/network_fundamentals.md
     - Services And Protocols:
       - FTP: network/services_and_protocols/ftp.md
@@ -43,12 +59,14 @@ nav:
       - WebDAV: network/services_and_protocols/webdav.md
       - WinRM: network/services_and_protocols/winrm.md
     - Active Directory: network/active_directory/introduction.md
-    - Information Gathering: network/information_gathering/information_gathering.md
+    - Information Gathering: 
+      - Introduction: network/information_gathering/information_gathering.md
       - Active Recon: network/information_gathering/active_recon.md
       - Passive Recon: network/information_gathering/passive_recon.md
       - Network Mapping: network/information_gathering/network_mapping.md
       - Vulnerabilities Scanning: network/information_gathering/vulnerabilities_scanning.md
-    - Exploitation: network/exploitation/exploitation.md
+    - Exploitation: 
+      - Introduction: network/exploitation/exploitation.md
       - Remote Shells: network/exploitation/remote_shells.md
       - Linux:
         - Haraka: network/exploitation/linux/haraka.md
@@ -81,11 +99,21 @@ nav:
         - Persistence: network/post_exploitation/windows/windows_persistence.md
         - Hash Dumping: network/post_exploitation/windows/windows_hash_dumping.md
         - Clearing Tracks: network/post_exploitation/windows/windows_clearing_tracks.md
-
-  - Mobile Security:
-    - Android:      
-      - Uncrackable L1: mobile/android/uncrackable-l1.md
-  - Cheatsheets
+    - Tools:
+      - CrackMapExec: network/tools/crackmapexec.md
+      - Empire: network/tools/empire.md
+      - Metasploit: network/tools/metasploit.md
+      - Mimikatz: network/tools/mimikatz.md
+      - Msfvenom: network/tools/msfvenom.md
+      - Nessus: network/tools/nessus.md
+      - Netcat: network/tools/netcat.md
+      - Nmap: network/tools/nmap.md
+      - Searchsploit: network/tools/searchsploit.md
+      - Socat: network/tools/socat.md
+      - WMAP: network/tools/wmap.md
+  - ⚡ Cheatsheets:
+    - Network Security: cheatsheets/network.md
+    - Web App Security: cheatsheets/web.md
 
 markdown_extensions:
   - admonition

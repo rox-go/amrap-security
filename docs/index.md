@@ -9,11 +9,11 @@ Welcome to my technical training log. This isn't a collection of perfect solutio
 
 ## Categories
 
-### Network Security
-Building the foundation. Understanding protocols, traffic analysis and infrastructure.
+### Mobile Security
+Deep dives into Android internals, reverse engineering, and bypassing protections in the OWASP Uncrackable challenges.
 
 ### Web Applications Security
 Testing the perimeter. Exploring the OWASP Top 10 and mastering the logic behind web vulnerabilities.
 
-### Mobile Security
-Deep dives into Android internals, reverse engineering, and bypassing protections in the OWASP Uncrackable challenges.
+### Network Security
+Building the foundation. Understanding protocols, traffic analysis and infrastructure.

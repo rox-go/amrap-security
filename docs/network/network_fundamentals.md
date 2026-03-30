@@ -94,7 +94,7 @@ All commands will be sent over the control channel. Once the client requests a f
 ### Post Office Protocol 3 (POP3)
 Post Office Protocol version 3 (POP3) is a protocol used to download the email messages from a Mail Delivery Agent (MDA) server:
 
-![POP3 Protocol](../media/network/mail_download.png){ width="500" style="display:block; margin:0 auto;" }
+![POP3 Protocol](img/mail_download.png){ width="500" style="display:block; margin:0 auto;" }
 
 **POP3 default port number is 110.**
 
