@@ -29,6 +29,17 @@ nav:
   - Home: index.md
   - 📱 Mobile Security:
     - Android:
+      - Frida Scripts:
+        - Frida Scripts: mobile/android/frida_scripts/frida_scripts.md
+        - Cryptography: 
+          - Cryptography: mobile/android/frida_scripts/cryptography/cryptography.js
+          - Random: mobile/android/frida_scripts/cryptography/random.js
+        - Data Storage:
+          - Log: mobile/android/frida_scripts/data_storage/log.js
+          - Print Stream: mobile/android/frida_scripts/data_storage/print_stream.js
+          - Shared Preferences: mobile/android/frida_scripts/data_storage/shared_preferences.js
+          - SQLite Database : mobile/android/frida_scripts/data_storage/sqlite_database.js
+          - TextView: mobile/android/frida_scripts/data_storage/textview.js
       - Uncrackable L1: mobile/android/owasp-android-crackmes/uncrackable1/Android_UnCrackable_L1.md
   - 🕸️ Web Applications Security: 
     - Introduction: web/web_application_introduction.md
