@@ -46,6 +46,5 @@ function extractSecretKey(){
 Java.perform(function(){
     rootChecks();
     debugChecks();
-
     extractSecretKey();
 });
