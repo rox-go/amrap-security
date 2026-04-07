@@ -20,10 +20,13 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
   features:
-    - navigation.sections
-    - navigation.expand
     - content.code.copy
     - search.suggest
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
 
 nav:
   - Home: index.md
@@ -102,7 +105,7 @@ nav:
       - Pass the Hash: network/exploitation/windows/pass_the_hash.md
       - SMB: network/exploitation/windows/smb.md
     - Post Exploitation:
-      - Pivoting: /network/post_exploitation/pivoting.md
+      - Pivoting: network/post_exploitation/pivoting.md
       - Linux:
         - Enumeration: network/post_exploitation/linux/linux_enumeration.md
         - Privilege Escalation: network/post_exploitation/linux/linux_privilege_escalation.md
