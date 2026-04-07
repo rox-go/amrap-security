@@ -12,7 +12,7 @@ Check out the full interactive lab here: **[https://rox-go.github.io/amrap-secur
 
 ## Repository Structure
 
-The documentation is organized by specialized training zones:
+The documentation is organized as follows:
 
 * **📱 Mobile Security:** Focused on Android (OWASP MASVS L1), Frida dynamic analysis, and APK reversing.
 * **🕸️ Web App Security:** Covering Client-Side attacks (XSS, CSRF, CORS), Injection, and CMS research.

@@ -33,7 +33,7 @@ nav:
   - 📱 Mobile Security:
     - Android:
       - Frida Scripts:
-        - Frida Scripts: mobile/android/frida_scripts/frida_scripts.md
+        - Overview: mobile/android/frida_scripts/frida_scripts.md
         - Cryptography: 
           - Cryptography: mobile/android/frida_scripts/cryptography/cryptography.js
           - Random: mobile/android/frida_scripts/cryptography/random.js
