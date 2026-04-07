@@ -2,8 +2,8 @@ Collection of basic Frida scripts for dynamic analysis of Android applications, 
 
 
 - **Cryptography**
-    - [Cryptography](cryptography/cryptography.md)
-    - [Random](cryptography/random.md)
+    - [Cryptography](cryptography/cryptography.js)
+    - [Random](cryptography/random.js)
 - **Data Storage**
     - [Log](mobile/android/frida_scripts/data_storage/log.js)
     - [Print Stream](mobile/android/frida_scripts/data_storage/print_stream.js)
